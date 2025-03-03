@@ -44,21 +44,37 @@ class MyHomePage extends StatelessWidget {
             ElevatedButton(
               onPressed: _insert,
               child: const Text('insert'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.purple, // Match button color with theme
+                foregroundColor: Colors.white, // White text on button
+              ),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: _query,
               child: const Text('query'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.purple, // Match button color with theme
+                foregroundColor: Colors.white, // White text on button
+              ),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: _update,
               child: const Text('update'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.purple, // Match button color with theme
+                foregroundColor: Colors.white, // White text on button
+              ),
             ),
             const SizedBox(height: 10),
             ElevatedButton(
               onPressed: _delete,
               child: const Text('delete'),
+              style: ElevatedButton.styleFrom(
+                backgroundColor: Colors.purple, // Match button color with theme
+                foregroundColor: Colors.white, // White text on button
+              ),
             ),
           ],
         ),
